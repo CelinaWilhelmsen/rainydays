@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  background-image: url(/images/background.jpg);
+  background-position: center;
+  min-height: 500px;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  padding: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navleft {
+  margin-inline: 2.5rem;
+}
+
+.navright {
+  margin-inline: 2.5rem;
+  justify-content: flex-end;
+}
+
+.button {
+  font-size: 1.5rem;
+  background-color: #20282b;
+  color: #fff;
+  border-radius: 0.6rem;
+  padding: 1.1rem;
+  padding-inline: 2rem;
+  border: none;
+  box-shadow: 0.6rem 0.6rem 1.3rem #20282b;
+  cursor: pointer;
+}
+
+h2 {
+  background-color: #20282b;
+  color: #fff;
+  padding: 2.5rem;
+  text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  padding: 9.4rem;
+  text-align: center;
+}
+section {
+  padding-inline: 6.25rem;
+  padding-top: 3.75rem;
+}
+
+h3 {
+  background-color: #20282b;
+  color: #fff;
+  padding: 0.62rem;
+  text-align: center;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 1.88rem;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.88rem;
+}
+
+.arrow-left {
+  position: relative;
+  font-size: 3.75rem;
+  align-self: center;
+}
+
+.arrow-right {
+  position: relative;
+  font-size: 3.75rem;
+  align-self: center;
+}
+
+.box-about {
+  display: flex;
+  padding-inline: 10%;
+}
+
+.about1 {
+  background-color: #20282b;
+  color: #fff;
+}
+
+.button-about {
+  font-size: 0.9rem;
+  background-color: #20282b;
+  color: #fff;
+  border-radius: 0.6rem;
+  padding: 1.1rem;
+  padding-inline: 1rem;
+  border: none;
+  box-shadow: 0.6rem 0.6rem 1.3rem #20282b;
+  cursor: pointer;
+}
+
+.product-header {
+  background-color: #20282b;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  padding: 5rem;
+  margin-top: -16rem;
+  margin-bottom: 4rem;
+}
+
+.product-header-h4 {
+  font-size: 2.5rem;
+  padding-inline: 10rem;
+}
+
+.product-header-p {
+  font-size: 1rem;
+}
+
+.button2 {
+  background-color: #525e66;
+  margin: 3rem;
+}
+
+.box-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1.5rem;
+}
+
+/********************************************************************************/
+/*CHECKOUT*/
+/********************************************************************************/
+
+.form-box {
+  display: flex;
+  margin-top: -15rem;
+  color: #fff;
+  font-style: normal;
+  padding-bottom: 5rem;
+}
+
+.form-box1 {
+  background-color: #20282b;
+  width: 150rem;
+  height: 50rem;
+  border-radius: 25px 0 0 25px;
+}
+
+.form-box2 {
+  width: 150rem;
+  height: 50rem;
+  background-image: url(/images/josh-hild-VRZtR44zAe4-unsplash.jpg);
+  background-size: cover;
+  color: #fff;
+  border-radius: 0 25px 25px 0;
+}
+
+.img-faded {
+  mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+.button-checkout {
+  background-color: #fff;
+  color: #000;
+}
+
+/********************************************************************************/
+/*CONTACT*/
+/********************************************************************************/
+
+.form-box3 {
+  width: 150rem;
+  height: 50rem;
+  background-image: url(/images/karsten-winegeart-RafaHEgK_nY-unsplash.jpg);
+  background-size: cover;
+  color: #fff;
+  border-radius: 0 25px 25px 0;
+}
+
+/********************************************************************************/
+/********************************************************************************/
+/*FOOTER*/
+/********************************************************************************/
+/********************************************************************************/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #20282b;
+  padding: 10rem;
+}
+
+.footer-logo {
+  height: 10rem;
+  width: auto;
+  padding-right: 10rem;
+}
+
+.footer-items {
+  font-size: 0.7rem;
+  color: white;
+  padding-bottom: 0.8rem;
+}
+
+.footer-p {
+  padding-bottom: 3.5rem;
+  color: white;
+}
+
+.footer-subscribe {
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.footer-items-header {
+  color: white;
+  padding-bottom: 1.5rem;
+}
+
+.list-div {
+  padding: 3rem;
+}
+
+.email-footer {
+  border: #525e66 solid 2px;
+  background-color: transparent;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.subscribe-btn {
+  border: #525e66 2px solid;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: #525e66;
+  padding: 0.4rem;
+  color: #20282b;
+}
+
+.subscribe-btn:hover {
+  background-color: #20282b;
+  border: #525e66 2px solid;
+  color: white;
+}
