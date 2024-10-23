@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
   </head>
   <body>
-    <header class="header img-faded">
+    <header class="header-faded">
       <nav class="navbar">
         <a href="index.html" class="navleft">Home</a>
         <a href="about.html" class="navleft">About</a>
@@ -33,30 +33,26 @@
 
     <section class="form-box">
       <div class="form-box1">
-        <section class="container">
-          <h5>Checkout</h5>
-          <form action="#" class="form">
-            <div class="input-box">
-              <label>Full Name</label> <br />
-              <input type="text" placeholder="Enter full name" />
-            </div>
-            <div class="input-box">
-              <label>Billing address</label> <br />
-              <input type="text" placeholder="Enter Address" />
-            </div>
-            <div class="input-box">
-              <label>Email address</label> <br />
-              <input type="text" placeholder="example@mail.com" />
-            </div>
-            <div class="input-box">
-              <label>Phone number</label> <br />
-              <input type="text" placeholder="ex. +47 12345678" />
-            </div>
-            <a href="#"
-              ><button class="button button-checkout">Order now!</button>
-            </a>
-          </form>
-        </section>
+        <h5 class="form-header">Checkout</h5>
+        <div class="form">
+          <label class="form-label" for="Name">Full name</label> <br />
+          <input class="form-input" type="text" id="name" name="name" /> <br />
+
+          <label class="form-label" for="Name">Billing address</label> <br />
+          <input class="form-input" type="text" id="address" name="address" />
+          <br />
+
+          <label class="form-label" for="Name">Email address</label> <br />
+          <input class="form-input" type="email" id="email" name="email" />
+          <br />
+
+          <label class="form-label" for="Name">Phone number</label> <br />
+          <input class="form-input" type="tel" id="phone" name="phone" /> <br />
+
+          <a href="checkout-success.html">
+            <button class="button-checkout1">Order Now!</button>
+          </a>
+        </div>
       </div>
       <div class="form-box2">
         <p class="img-text">Let your next adventure begin</p>
@@ -65,7 +61,7 @@
 
     <footer class="footer">
       <div class="img-div">
-        <img src="images/logo.png" class="footer-logo" alt="Logo" />
+        <img src="images/logohvit.png" class="footer-logo" alt="Logo" />
       </div>
       <div class="list-div">
         <ul class="footer-list">

@@ -18,8 +18,19 @@ a {
   color: #fff;
 }
 
+/********************************************************************************/
+/*INDEX.html*/
+/********************************************************************************/
+
 .header {
   background-image: url(/images/background.jpg);
+  background-position: center;
+  min-height: 500px;
+  color: #fff;
+}
+
+.header-faded {
+  background-image: url(/images/backgroundgrade.tif);
   background-position: center;
   min-height: 500px;
   color: #fff;
@@ -109,14 +120,27 @@ h3 {
   align-self: center;
 }
 
+/********************************************************************************/
+/*ABOUT.html*/
+/********************************************************************************/
+
 .box-about {
   display: flex;
   padding-inline: 10%;
 }
 
-.about1 {
+.about2 {
   background-color: #20282b;
   color: #fff;
+  border-radius: 200px 0 100px 0;
+}
+
+.img-box-left {
+  border-radius: 25px 75px 25px 75px;
+}
+
+.img-box-right {
+  border-radius: 75px 25px 25px 75px;
 }
 
 .button-about {
@@ -130,6 +154,10 @@ h3 {
   box-shadow: 0.6rem 0.6rem 1.3rem #20282b;
   cursor: pointer;
 }
+
+/********************************************************************************/
+/*LIST.html*/
+/********************************************************************************/
 
 .product-header {
   background-color: #20282b;
@@ -162,22 +190,30 @@ h3 {
 }
 
 /********************************************************************************/
-/*CHECKOUT*/
+/*CHECKOUT.html*/
 /********************************************************************************/
 
 .form-box {
+  padding: 3rem;
   display: flex;
-  margin-top: -15rem;
+  margin-top: -25rem;
   color: #fff;
   font-style: normal;
   padding-bottom: 5rem;
 }
 
 .form-box1 {
+  padding-left: 3rem;
   background-color: #20282b;
   width: 150rem;
   height: 50rem;
   border-radius: 25px 0 0 25px;
+}
+
+.form-header {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  font-size: 3rem;
 }
 
 .form-box2 {
@@ -185,25 +221,47 @@ h3 {
   height: 50rem;
   background-image: url(/images/josh-hild-VRZtR44zAe4-unsplash.jpg);
   background-size: cover;
+  background-position: bottom;
   color: #fff;
   border-radius: 0 25px 25px 0;
 }
 
-.img-faded {
-  mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+.button-checkout1 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  border: none;
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
 }
 
-h5 {
-  font-size: 2rem;
+.container-checkout {
+  display: flex;
 }
 
-.button-checkout {
-  background-color: #fff;
-  color: #000;
+.checkout-header {
+  display: block;
+}
+
+.form-container {
+  display: block;
+}
+
+.form-input {
+  font-size: 1rem;
+  border: none;
+  padding-inline: 0.3rem;
+  padding-block: 0.3rem;
+  border-radius: 5px;
 }
 
 /********************************************************************************/
-/*CONTACT*/
+/*CONTACT.html*/
 /********************************************************************************/
 
 .form-box3 {
@@ -211,8 +269,113 @@ h5 {
   height: 50rem;
   background-image: url(/images/karsten-winegeart-RafaHEgK_nY-unsplash.jpg);
   background-size: cover;
+  background-position: bottom;
   color: #fff;
   border-radius: 0 25px 25px 0;
+}
+
+/********************************************************************************/
+/*JACKET.html*/
+/********************************************************************************/
+
+.specific-product {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding-bottom: 5rem;
+  margin-top: -20rem;
+}
+
+.img-container {
+  display: flex;
+}
+
+.product-img1 {
+  width: 30rem;
+  height: 39.8rem;
+}
+
+.small-img-product {
+  width: 8rem;
+}
+
+.jacket-desc {
+  padding-left: 2rem;
+}
+
+.jacket-name {
+  background-color: transparent;
+  color: #20282b;
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  text-align: start;
+  font-size: 5rem;
+}
+
+.jacket-price {
+  background-color: transparent;
+  color: #20282b;
+  padding: 0;
+  text-align: start;
+  font-size: 3rem;
+}
+
+.button-jacket {
+  box-shadow: none;
+  margin-top: 0.5rem;
+}
+
+.button-jacket-white {
+  border: 2px solid #20282b;
+  background-color: #fff;
+  color: #20282b;
+}
+
+.jacket-color {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.jacket-color-img {
+  margin-right: 0.8rem;
+}
+
+.size-info {
+  display: flex;
+  border-top: 2px solid #20282b;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.material-info {
+  display: flex;
+  border-top: 2px solid #20282b;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.product-details {
+  border-top: 2px solid #20282b;
+  border-bottom: 2px solid #20282b;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.product-details-p {
+  display: flex;
+}
+
+.product-detail-text {
+  font-size: 1rem;
+  padding-right: 4rem;
+}
+
+.icon-jacket {
 }
 
 /********************************************************************************/
