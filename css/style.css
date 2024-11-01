@@ -30,7 +30,7 @@ a {
 }
 
 .header-faded {
-  background-image: url(/images/backgroundgrade.tif);
+  background-image: url(/images/backgroundgrade.1.jpg);
   background-position: center;
   min-height: 500px;
   color: #fff;
@@ -119,6 +119,16 @@ h3 {
   font-size: 3.75rem;
   align-self: center;
 }
+.frontimg {
+  object-fit: cover;
+  object-position: top;
+}
+
+.frontimg2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  object-fit: cover;
+}
 
 /********************************************************************************/
 /*ABOUT.html*/
@@ -133,14 +143,20 @@ h3 {
   background-color: #20282b;
   color: #fff;
   border-radius: 200px 0 100px 0;
+  height: 25rem;
 }
 
 .img-box-left {
   border-radius: 25px 75px 25px 75px;
+  height: 25rem;
+  width: 18rem;
 }
 
 .img-box-right {
   border-radius: 75px 25px 25px 75px;
+  margin-top: -4rem;
+  height: 25rem;
+  width: 18rem;
 }
 
 .button-about {
@@ -153,6 +169,26 @@ h3 {
   border: none;
   box-shadow: 0.6rem 0.6rem 1.3rem #20282b;
   cursor: pointer;
+  margin-top: 2rem;
+}
+
+.box-1 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.img-box-left-1 {
+  margin-top: -4rem;
+}
+
+.about3 {
+  padding-bottom: 4rem;
+}
+
+.img-box-p {
+  text-align: left;
+  padding-inline: 10%;
+  padding-top: 5rem;
 }
 
 /********************************************************************************/
@@ -184,9 +220,36 @@ h3 {
 }
 
 .box-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   padding: 1.5rem;
+}
+
+.jacket-img-box {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4.5rem;
+}
+
+.list-img {
+  width: 16rem;
+  height: 19rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.box-list-img {
+  text-align: left;
+}
+
+.box-list-price {
+  text-align: right;
+  font-weight: 500;
+  font-size: larger;
+  margin-top: -2.6rem;
+}
+
+.box-list-header {
+  font-weight: 500;
+  font-size: large;
 }
 
 /********************************************************************************/
