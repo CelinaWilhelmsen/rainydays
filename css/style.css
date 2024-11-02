@@ -11,6 +11,7 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 a {
@@ -468,9 +469,7 @@ h3 {
 }
 
 /********************************************************************************/
-/********************************************************************************/
 /*FOOTER*/
-/********************************************************************************/
 /********************************************************************************/
 
 .footer {
@@ -535,8 +534,240 @@ h3 {
   color: white;
 }
 
+/********************************************************************************/
+/*MOBILE index.html + NAV*/
+/********************************************************************************/
+.mobile-header {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-link {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.mobile-nav-box {
+  z-index: 1000;
+  width: 95vw;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mobile-nav-list {
+  display: inline-block;
+  padding-inline: 3.5rem;
+}
+
+.mobile-menu-icons {
+  display: block;
+  font-size: 3rem;
+}
+
+.mobile-h2 {
+  color: black;
+  background-color: transparent;
+  font-size: 2rem;
+  display: block;
+}
+
+.mobile-section {
+  display: none;
+}
+
+.jackets-mobile-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mobile-jacket-img-div {
+  padding-inline: 2rem;
+  padding-block: 2rem;
+}
+
+.mobile-jacket-img {
+  height: 15rem;
+}
+
+/********************************************************************************/
+/*MEDIA QUERIES*/
+/********************************************************************************/
+
 @media (max-width: 1250px) {
   .form-input {
     width: 25rem;
+  }
+}
+
+@media (max-width: 1087px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .button {
+    padding-inline: 3rem;
+  }
+
+  .footer {
+    padding: 5rem;
+  }
+
+  .footer-logo {
+    height: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (max-width: 980px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    padding: 0.8rem;
+  }
+
+  .navleft {
+    margin-inline: 1rem;
+  }
+
+  .navright {
+    margin-inline: 1rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .box {
+    padding: 5rem;
+  }
+
+  .button {
+    font-size: 1rem;
+  }
+
+  .footer {
+    padding: 2rem;
+  }
+
+  .footer-logo {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 803px) {
+  .img-div {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    display: none;
+  }
+
+  .main-section {
+    display: none;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    padding-inline: 3rem;
+    padding-top: 3rem;
+  }
+
+  .mobile-section {
+    display: block;
+  }
+
+  .mobile-logo {
+    height: 7rem;
+    padding-right: 10rem;
+  }
+
+  .mobile-h1 {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .frontimg {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-nav-box {
+    position: fixed;
+    bottom: 0;
+  }
+  .img-box-left,
+  .img-box-right {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .list-div {
+    padding: 2rem;
+  }
+
+  .footer-items-header {
+    font-size: 0.8rem;
+  }
+
+  .footer-items {
+    font-size: 0.5rem;
+  }
+
+  .mobile-menu-icons {
+    font-size: 2rem;
+  }
+
+  .mobile-logo {
+    padding-right: 5rem;
+  }
+}
+
+@media (max-width: 501px) {
+  .mobile-nav-list {
+    padding-inline: 2rem;
+  }
+
+  .mobile-h1 {
+    font-size: 1rem;
+  }
+
+  .mobile-logo {
+    height: 5rem;
+  }
+
+  .footer {
+    padding-bottom: 8rem;
+  }
+
+  .footer-items {
+    display: none;
+  }
+  .footer-items-header {
+    display: none;
   }
 }
