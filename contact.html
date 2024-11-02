@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Rainydays contact page" />
+    <title>Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +24,9 @@
         <a href="about.html" class="navleft">About</a>
         <a href="contact.html" class="navleft">Contact</a>
 
-        <a class="logo"><img src="images/logo.png" width="100" alt="" /></a>
+        <a class="logo"
+          ><img src="images/logo.png" width="100" alt="Rainydays Logo"
+        /></a>
 
         <a href="list.html" class="navright">Products</a>
         <a href="checkout.html" class="navright">Cart</a>
@@ -33,29 +36,48 @@
 
     <section class="form-box">
       <div class="form-box1">
-        <section class="container">
-          <h5>Contact form</h5>
-          <form action="#" class="form">
-            <div class="input-box">
-              <label>Name</label> <br />
-              <input type="text" placeholder="Enter full name" />
-            </div>
-            <div class="input-box">
-              <label>Email address</label> <br />
-              <input type="text" placeholder="example@mail.com" />
-            </div>
-            <div class="input-box">
-              <label>Message</label> <br />
-              <input type="text" placeholder="..." />
-            </div>
-            <a href="#"
-              ><button class="button button-checkout">Submit</button>
-            </a>
-          </form>
-        </section>
+        <h5 class="form-header">Contact form</h5>
+        <div class="form">
+          <div class="form-box-whole">
+            <label class="form-label" for="Name">Name</label> <br />
+            <input
+              class="form-input"
+              type="text"
+              placeholder="Enter full name"
+              id="name"
+              name="name"
+            />
+          </div>
+
+          <div class="form-box-whole">
+            <label class="form-label" for="Name">Email address</label> <br />
+            <input
+              class="form-input"
+              type="email"
+              placeholder="example@mail.com"
+              id="email"
+              name="email"
+            />
+          </div>
+
+          <div class="form-box-whole">
+            <label class="form-label" for="Name">Message</label> <br />
+            <input
+              class="form-input form-label2"
+              type="text"
+              placeholder="..."
+              id="Text checkout"
+              name="Text checkout"
+            />
+          </div>
+
+          <a href="#">
+            <button class="button-checkout1">Submit</button>
+          </a>
+        </div>
       </div>
       <div class="form-box3">
-        <p class="img-text">Let your next adventure begin</p>
+        <p class="img-text">Let your next adventure begin!</p>
       </div>
     </section>
 

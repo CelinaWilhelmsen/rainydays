@@ -266,7 +266,7 @@ h3 {
 }
 
 .form-box1 {
-  padding-left: 3rem;
+  padding-left: 4rem;
   background-color: #20282b;
   width: 150rem;
   height: 50rem;
@@ -274,9 +274,9 @@ h3 {
 }
 
 .form-header {
-  padding-left: 2rem;
-  padding-top: 2rem;
+  padding-top: 4rem;
   font-size: 3rem;
+  padding-bottom: 3rem;
 }
 
 .form-box2 {
@@ -321,11 +321,36 @@ h3 {
   padding-inline: 0.3rem;
   padding-block: 0.3rem;
   border-radius: 5px;
+  width: 30rem;
+}
+
+.form-box-whole {
+  margin-bottom: 1.5rem;
+}
+
+.img-text {
+  font-weight: 400;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 45rem;
+}
+
+/********************************************************************************/
+/*CHECKOUT-SUCCESS.html*/
+/********************************************************************************/
+
+.thanks-text {
+  font-size: xx-large;
 }
 
 /********************************************************************************/
 /*CONTACT.html*/
 /********************************************************************************/
+
+.form-label2 {
+  padding-bottom: 15rem;
+  text-align: left;
+}
 
 .form-box3 {
   width: 150rem;
@@ -358,6 +383,7 @@ h3 {
 }
 
 .small-img-product {
+  padding-right: 0.2rem;
   width: 8rem;
 }
 
@@ -507,4 +533,10 @@ h3 {
   background-color: #20282b;
   border: #525e66 2px solid;
   color: white;
+}
+
+@media (max-width: 1250px) {
+  .form-input {
+    width: 25rem;
+  }
 }

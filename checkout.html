@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Checkout when buying" />
+    <title>Checkout</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +24,9 @@
         <a href="about.html" class="navleft">About</a>
         <a href="contact.html" class="navleft">Contact</a>
 
-        <a class="logo"><img src="images/logo.png" width="100" alt="" /></a>
+        <a class="logo"
+          ><img src="images/logo.png" width="100" alt="Rainydays Logo"
+        /></a>
 
         <a href="list.html" class="navright">Products</a>
         <a href="checkout.html" class="navright">Cart</a>
@@ -35,19 +38,49 @@
       <div class="form-box1">
         <h5 class="form-header">Checkout</h5>
         <div class="form">
-          <label class="form-label" for="Name">Full name</label> <br />
-          <input class="form-input" type="text" id="name" name="name" /> <br />
+          <div class="form-box-whole">
+            <label class="form-label" for="Name">Full name</label> <br />
+            <input
+              class="form-input"
+              type="text"
+              placeholder="Enter full name"
+              id="name"
+              name="name"
+            />
+          </div>
 
-          <label class="form-label" for="Name">Billing address</label> <br />
-          <input class="form-input" type="text" id="address" name="address" />
-          <br />
+          <div class="form-box-whole">
+            <label class="form-label" for="Name">Billing address</label> <br />
+            <input
+              class="form-input"
+              type="text"
+              placeholder="Enter street Address and Postal code"
+              id="address"
+              name="address"
+            />
+          </div>
 
-          <label class="form-label" for="Name">Email address</label> <br />
-          <input class="form-input" type="email" id="email" name="email" />
-          <br />
+          <div class="form-box-whole">
+            <label class="form-label" for="Name">Email address</label> <br />
+            <input
+              class="form-input"
+              type="email"
+              placeholder="example@mail.com"
+              id="email"
+              name="email"
+            />
+          </div>
 
-          <label class="form-label" for="Name">Phone number</label> <br />
-          <input class="form-input" type="tel" id="phone" name="phone" /> <br />
+          <div class="form-box-whole">
+            <label class="form-label" for="Name">Phone number</label> <br />
+            <input
+              class="form-input"
+              type="tel"
+              placeholder="+47 12345678"
+              id="phone"
+              name="phone"
+            />
+          </div>
 
           <a href="checkout-success.html">
             <button class="button-checkout1">Order Now!</button>
@@ -55,7 +88,7 @@
         </div>
       </div>
       <div class="form-box2">
-        <p class="img-text">Let your next adventure begin</p>
+        <p class="img-text">Let your next adventure begin!</p>
       </div>
     </section>
 
