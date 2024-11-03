@@ -31,7 +31,7 @@ a {
 }
 
 .header-faded {
-  background-image: url(/images/backgroundgrade.jpg);
+  background-image: url(images/backgroundgrade.jpg);
   background-position: center;
   min-height: 500px;
   color: #fff;
@@ -293,7 +293,7 @@ h3 {
 .form-box2 {
   width: 150rem;
   height: 50rem;
-  background-image: url(/images/nitish-meena-BaCmEa2hy8g-unsplash-2.jpg);
+  background-image: url(images/nitish-meena-BaCmEa2hy8g-unsplash-2.jpg);
   background-size: cover;
   background-position: bottom;
   color: #fff;
