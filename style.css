@@ -24,7 +24,7 @@ a {
 /********************************************************************************/
 
 .header {
-  background-image: url(/images/background.jpg);
+  background-image: url(images/background.jpg);
   background-position: center;
   min-height: 500px;
   color: #fff;
